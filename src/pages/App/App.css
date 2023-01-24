@@ -1,0 +1,50 @@
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.session-info{
+    display: flex;
+    align-items: center;
+    gap: 2rem
+
+}
+
+.line{
+    border: solid rgb(56, 55, 55) 2px;
+    height: 2rem;
+    border-radius: 6px;
+}
+
+.head-content{
+    display: flex;
+    width: 90%;
+    margin-top: 6rem;
+    gap: 25rem;
+    margin-left: 16rem;
+    
+}
+
+.head-content-left{
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+}
+
+.addUser{
+    width: 3rem;
+    height: 3rem;
+}
+
+.body-content{
+    display: flex;
+    justify-content: center;
+    width: 123rem;
+}
+
+.table-content{
+    width: 160rem;
+    height: auto;
+}
