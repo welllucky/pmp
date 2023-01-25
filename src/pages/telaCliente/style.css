@@ -1,0 +1,58 @@
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.data-0{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+.part-1{
+    display: flex;
+    flex-direction: row;
+    gap: 100px ;
+    width: 60%;
+}
+
+.part-2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    width: 60%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+

@@ -5,7 +5,8 @@ import Button from "../../components/button"
 
 //css
 import '../../assets/css/text.css'
-import './App.css'
+import './style.css'
+import '../../assets/css/scroll.css'
 
 //img
 import addUser from "../../assets/icons/addUser.png"
@@ -24,15 +25,28 @@ export default function App(){
                         <div className="session-info">
                             <h1>Gerenciador de usuários</h1>
                             <div className="line"></div>
-                            <h6 className="usuarios-cadastrados">00 usuários</h6>
+                            <h4 className="usuarios-cadastrados">00 usuários</h4>
                         </div>
-                        <img className="addUser" src={addUser}/>
+                        <a href="https:\\www.google.com" target="_blank">
+                        <img className="addUser" src={addUser} />
+                        </a>
                     </div>
                     <BarraPesquisa/>
                 </div>
                 <div className="body-content">
-                    <table className="table-content">
+                    <table className="table">
                         <Table/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
+                        <Item/>
                         <Item/>
                         <Item/>
                         <Item/>

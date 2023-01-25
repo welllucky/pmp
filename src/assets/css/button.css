@@ -1,0 +1,23 @@
+button-icon-v1 img{
+    display: flex;
+    width: 32px;
+    height: auto;
+}
+
+button-icon-v2 img{
+    display: flex;
+    width: 24px;
+    height: auto;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.back-button >img {
+    height: auto;
+    width: 35px;
+}

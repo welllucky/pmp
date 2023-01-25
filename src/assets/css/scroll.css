@@ -1,0 +1,18 @@
+.table::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  .table::-webkit-scrollbar-track {
+    background: #C9C9C9;        /* color of the tracking area */
+  }
+  
+  .table::-webkit-scrollbar-thumb {
+    background-color: #E7E7E7;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #7ac14394;  /* creates padding around scroll thumb */
+  }
+
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #E7E7E7 #C9C9C9;
+  }

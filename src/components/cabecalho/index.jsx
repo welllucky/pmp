@@ -12,7 +12,7 @@ export default function cabecalho(){
                     <img src={logo} alt="logo ferreira costa" className="logo" />
                     <div className="usuario-ref">
                         <img className="foto-usuario" src={userPhoto} alt=""/>
-                        <h5>Nome do Usuário</h5>
+                        <h4>Nome do Usuário</h4>
                     </div>
                 </div>
     )

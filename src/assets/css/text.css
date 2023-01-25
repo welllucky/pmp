@@ -1,37 +1,50 @@
-h1{
-    color: #e71c35;
+h1 {
+    text-transform: capitalize;
     font-size: 2.8rem;
     font-weight: 600;
-    font-style: normal;
+    color: #E71C35;
 }
 
-h2{
-
+h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #7ac143;
+    text-transform: capitalize;
 }
 
-h3{
-
+h3 {
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
-h4{
-
-}
-
-h5 {
+h4 {
+    text-transform: capitalize;
     font-size: 1.6rem;
-    width: 10rem;
-    font-weight: 600;
-}
+    font-weight: 500;
+    width: 10ch;
 
-h6 {
-    font-size: 1.6rem;
-    font-weight: 600;
+    
 }
 
 p {
-
+    font-size: 1.6rem;
 }
 
 span {
+    font-size: 1.6rem;
+    color: #7B7B7B;
+}
 
+table-title-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-right: auto;
+    text-transform: capitalize;
+}
+
+info-item-text{
+    font-size: 1.6rem;
+    font-weight: 50rem;
+    text-transform: capitalize;
 }
