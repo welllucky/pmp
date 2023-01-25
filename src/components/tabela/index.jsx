@@ -4,7 +4,7 @@ import '../../assets/css/text.css'
 import '../../assets/css/scroll.css'
 
 //img
-import lock from '../../assets/icons/lock.png'
+import lock from '../../assets/icons/lock.svg'
 import edit from '../../assets/icons/edit.png'
 
 export default function Table(){

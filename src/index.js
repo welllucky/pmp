@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import GU from './pages/gerenciadorUsuarios/index';
-import Cliente from './pages/telaCliente/index'
 import reportWebVitals from './reportWebVitals';
+
+//CSS
+import './index.css';
+
+//PAGES
+import GU from './pages/gerenciadorUsuarios/index';
+import Cliente from './pages/telaUsuario/index'
+import Login from  './pages/login/index'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Cliente />
+    <Login />
   </React.StrictMode>
 );
 

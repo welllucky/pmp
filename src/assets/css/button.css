@@ -13,7 +13,6 @@ button-icon-v2 img{
 .back-button {
     display: flex;
     align-items: center;
-    margin-top: 40px;
     margin-left: 110px;
 }
 

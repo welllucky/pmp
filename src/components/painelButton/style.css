@@ -1,0 +1,8 @@
+.painelButton{
+    display: flex;
+    width: 56.6rem;
+    height: 9.2rem;
+    padding: 2rem 4rem;
+    justify-content: space-between;
+}
+

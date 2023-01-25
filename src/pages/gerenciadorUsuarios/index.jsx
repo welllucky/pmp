@@ -16,9 +16,7 @@ import { Item } from "../../components/tabela"
 export default function App(){
     return(
         <div className="flex-container">
-            <header>
-                <Cabecalho />
-            </header>
+            <Cabecalho className="cabecalho" type="logged" position="fixed"/>
             <main className="content">
                 <div className="head-content">
                     <div className="head-content-left">

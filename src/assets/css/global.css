@@ -4,6 +4,7 @@
 
   body {
     margin: 0;
+    padding: 0;
 }
 
 .flex-container {
@@ -18,7 +19,6 @@ main {
     width: 100%;
     height: max-content;
     justify-content: center;
-    flex-direction: column;
-    overflow: hidden;  
+    flex-direction: column; 
 }
 
