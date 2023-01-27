@@ -3,29 +3,28 @@ import '../../assets/css/text.css'
 import '../../assets/css/global.css'
 
 import Cabecalho from '../../components/cabecalho/index'
+import Input from '../../components/inputs'
+import { Button } from '../../components/button'
+import search from '../../assets/icons/search.png'
 
 
-export default function login(){
-    return(
+export default function login() {
+    return (
         <div className="flex-container-login">
-            <Cabecalho type="noLogged" position="relative"/>
+            <Cabecalho type="noLogged" position="relative" />
             <main className="content-login">
                 <div className="box-auth">
                     <div className="body-content-login">
                         <h2>Seja bem vindo(a)!</h2>
-                        <div className="data-inputs">
-                            <div className="email-input">
-                                <p className="email">Email</p>
-                                <input type="email" name="email" id="email" />
+                        <div className="user-content-login">
+                            <div className="data-inputs">
+                                <Input name="Email" type="email" placeholder="Digite seu email" />
+                                <Input name="Senha" type='psw' placeholder="Digite sua senha" />
                             </div>
-                            <div className="psw">
-                                <p className='psw'>Senha</p>
-                                <input type="password" name="password" id="password" />
-                            </div>
+                            <div className="psw-fogother"><h4>Esqueci a senha</h4></div>
                         </div>
-                        <div className="psw-fogother"><span>Esqueci a senha</span></div>
                     </div>
-                    <div className="button-entrace"><button type="submit"></button></div>
+                    <Button placeholder="Entrar" />
                 </div>
             </main>
         </div>

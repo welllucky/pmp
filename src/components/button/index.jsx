@@ -3,21 +3,28 @@ import '../../assets/css/text.css'
 
 import back from '../../assets/icons/back.png'
 
-export default function button(props){
-    return(
-        <div className="button">
-            <a href={props.href}>
-                <img src={props.img} alt=""/>
+export default function iconButton({ href, img, size = '1rem' }) {
+    return (
+        <div className="iconButton">
+            <a href={href}>
+                <img src={img} alt="" style={{ height: size, width: size }} />
             </a>
         </div>
     )
 }
 
-export function BackButton(){
-    return(
-        <div className='back-button'>
+export function BackButton() {
+    return (
+        <div className='back-Button'>
             <img src={back}></img>
             <h4>voltar</h4>
-    </div>
+        </div>
     )
+}
+
+export function Button({ placeholder, type = "submit" }) {
+    return (
+        <div className="button">
+            <button type={type} id="button">{placeholder}</button>
+        </div>)
 }

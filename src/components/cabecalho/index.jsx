@@ -10,8 +10,8 @@ import '../../assets/css/text.css'
 export default function Cabecalho({type, position}){
     if (type == 0 || type == 'logged'){
         return(
-            <header style={{position: position}}>
-            <div className="cabecalho">
+            <header>
+            <div className="cabecalho" style={{position: position}}>
                         <img src={logo} alt="logo ferreira costa" className="logo" />
                         <div className="usuario-ref">
                             <img className="foto-usuario" src={userPhoto} alt=""/>

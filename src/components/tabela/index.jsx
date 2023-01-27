@@ -19,6 +19,13 @@ export default function Table(){
             <li alter="true"><table-title-text >registro</table-title-text></li>
             </ul>
             <div className='content-box'>
+                <Item/>
+                <Item/>
+                <Item/>
+                <Item/>
+                <Item/>
+                <Item/>
+                <Item/>
             </div>
         </div>
     )
@@ -32,7 +39,7 @@ export function Item(){
                 <li data="user"><info-item-text>joão barros</info-item-text></li>
                 <li data="job"><info-item-text>Engenheiro</info-item-text></li>
                 <li data="team"><info-item-text>Planejamento</info-item-text></li>
-                <li data="unity"><info-item-text>Recife (Ibiribeira)</info-item-text></li>
+                <li data="unity"><info-item-text>Ibiribeira</info-item-text></li>
                 <li data="latest-acess"><info-item-text>22:00 22/12/2023</info-item-text></li>
             </ul>
             <div className='tools-box'>

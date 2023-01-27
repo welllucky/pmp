@@ -1,9 +1,18 @@
-.button{
-    width: 1rem;
-    height: 1rem;
+#button{
+    text-align: center;
+    background-color: #da0812;
+    color: #ffff;
+    width: 32rem;
+    height: 4rem;
+
+    font-size: 2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: .2rem;
 }
 
-.back-button{
-    display: block;
-    margin-top: 10%;
+.back-Button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }

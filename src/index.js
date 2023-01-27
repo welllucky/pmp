@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
 //CSS
@@ -10,10 +11,15 @@ import GU from './pages/gerenciadorUsuarios/index';
 import Cliente from './pages/telaUsuario/index'
 import Login from  './pages/login/index'
 
+const router = createBrowserRouter([{
+  path: "/",
+  element: <div>Hello world</div>
+}])
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,28 @@
+.input-field{
+    display: flex;
+    width: 32rem;
+    height: 3.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #E5E6E6;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0px 3px 8px -1px #00000026 inset;
+    border-radius: .6rem;
+}
+
+#input{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+
+.mask-psw{
+    width: 2rem;
+    height: auto;
+}
+
+.icon-default{
+        width: 2rem;
+        height: auto;
+}

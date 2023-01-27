@@ -1,7 +1,7 @@
 //components
 import Cabecalho from "../../components/cabecalho"
 import BarraPesquisa from "../../components/barraDePesquisa"
-import Button from "../../components/button"
+import IconButton from "../../components/button"
 
 //css
 import '../../assets/css/text.css'
@@ -11,7 +11,6 @@ import '../../assets/css/scroll.css'
 //img
 import addUser from "../../assets/icons/addUser.png"
 import Table from "../../components/tabela"
-import { Item } from "../../components/tabela"
 
 export default function App(){
     return(
@@ -25,7 +24,7 @@ export default function App(){
                             <div className="line"></div>
                             <h4 className="usuarios-cadastrados">00 usuários</h4>
                         </div>
-                        <a href="https:\\www.google.com" target="_blank">
+                        <a href="" target="_blank">
                         <img className="addUser" src={addUser} />
                         </a>
                     </div>
@@ -34,22 +33,6 @@ export default function App(){
                 <div className="body-content">
                     <table className="table">
                         <Table/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
                         
                     </table>
                 </div>
