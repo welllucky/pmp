@@ -4,6 +4,7 @@ h1 {
     font-size: 2.8rem;
     font-weight: 600;
     color: #E71C35;
+    text-decoration: none;
 }
 
 h2 {
@@ -11,33 +12,38 @@ h2 {
     color: #7ac143;
     font-weight: 700;
     line-height: 3rem;
+    text-decoration: none;
 }
 
 h3 {
     font-size: 2.2rem;
     font-weight: 500;
+    text-decoration: none;
 }
 
 h4 {
     font-size: 1.6rem;
     font-weight: 600;
     width: 10ch;
-
+    text-decoration: none;
 }
 
 h5{
     font-size: 1.4rem;
     font-weight: 600;
     width: 10ch;
+    text-decoration: none;
 }
 
 p {
     font-size: 1.6rem;
+    text-decoration: none;
 }
 
 span {
     font-size: 1.6rem;
     color: #7B7B7B;
+    text-decoration: none;
 }
 
 table-title-text {
@@ -45,10 +51,12 @@ table-title-text {
     font-weight: 600;
     padding-right: auto;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 info-item-text{
     font-size: 1.6rem;
     font-weight: 50rem;
     text-transform: capitalize;
+    text-decoration: none;
 }

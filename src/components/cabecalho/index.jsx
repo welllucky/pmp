@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 //imgs
 import logo from '../../assets/imgs/logo.png';
 import userPhoto from '../../assets/icons/user.png';
@@ -7,12 +9,13 @@ import lock from '../../assets/icons/lock.svg';
 import './style.css'
 import '../../assets/css/text.css'
 
+
 export default function Cabecalho({type, position}){
     if (type == 0 || type == 'logged'){
         return(
             <header>
             <div className="cabecalho" style={{position: position}}>
-                        <img src={logo} alt="logo ferreira costa" className="logo" />
+            <Link to="/"><img src={logo} alt="logo ferreira costa" className="logo" /></Link> 
                         <div className="usuario-ref">
                             <img className="foto-usuario" src={userPhoto} alt=""/>
                             <h4>Nome do Usuário</h4>
