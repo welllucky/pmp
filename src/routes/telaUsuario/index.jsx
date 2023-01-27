@@ -25,7 +25,7 @@ function TelaCliente() {
           <BackButton />
           <h1 className="username">Nome do usuário</h1>
           <div className="content">
-            <div className="session" nameSession="informacoes">
+            <div className="session" name="informacoes">
               <h3>Informações</h3>
               <div className="data-session">
                 <div className="part-1">
@@ -41,7 +41,7 @@ function TelaCliente() {
                 </div>
               </div>
             </div>
-            <div className="session" nameSession="contato">
+            <div className="session" name="contato">
               <h3>Contato</h3>
               <div className="data-session">
                 <div className="part-1">
@@ -50,7 +50,7 @@ function TelaCliente() {
                 </div>
               </div>
             </div>
-            <div className="session" nameSession="status">
+            <div className="session" name="status">
               <h3>Status</h3>
               <div className="data-session">
                 <Display title="condição" data="ativo" />

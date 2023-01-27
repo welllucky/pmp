@@ -20,7 +20,7 @@ export function BackButton(path = "../") {
       <Link to={path}>
         {" "}
         <div className="back-Button">
-          <img src={back}></img>
+          <img src={back} alt=""></img>
           <h4>voltar</h4>
         </div>
       </Link>
