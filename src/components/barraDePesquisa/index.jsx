@@ -2,7 +2,7 @@
 import './style.css'
 import '../../assets/css/text.css'
 
-
+import React from 'react'
 
 import search from '../../assets/icons/search.png'
 

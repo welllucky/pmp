@@ -1,6 +1,7 @@
 import '../../assets/css/text.css'
 import './style.css'
 
+import React from 'react'
 
 export default function display({title, data}){
     return(

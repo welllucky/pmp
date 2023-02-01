@@ -1,8 +1,10 @@
+/* eslint-disable react/prop-types */
 import "./style.css";
 import "../../assets/css/text.css";
 
 import back from "../../assets/icons/back.png";
 import { Link } from "react-router-dom";
+import React from 'react'
 
 export default function iconButton({ href, img, size = "1rem" }) {
   return (

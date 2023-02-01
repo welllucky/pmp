@@ -1,7 +1,10 @@
 //components
 import Cabecalho from "../../components/cabecalho"
 import BarraPesquisa from "../../components/barraDePesquisa"
+// eslint-disable-next-line no-unused-vars
 import IconButton from "../../components/button"
+
+import React from 'react'
 
 //css
 import '../../assets/css/text.css'

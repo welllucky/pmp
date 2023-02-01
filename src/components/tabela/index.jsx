@@ -1,3 +1,5 @@
+import React from 'react'
+
 //css
 import './style.css'
 import '../../assets/css/text.css'
@@ -17,7 +19,7 @@ export default function Table(){
             <li><table-title-text>cargo</table-title-text></li>
             <li><table-title-text>equipe</table-title-text></li>
             <li><table-title-text>unidade</table-title-text></li>
-            <li alter="true"><table-title-text >registro</table-title-text></li>
+            <li><table-title-text >registro</table-title-text></li>
             </ul>
             <div className='content-box'>
                 <Item/>

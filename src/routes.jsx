@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import React from 'react'
 
 import GU from "./routes/gerenciadorUsuarios/index";
 import User from "./routes/telaUsuario/index";

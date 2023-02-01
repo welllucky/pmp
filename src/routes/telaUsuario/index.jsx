@@ -4,17 +4,11 @@ import "../../assets/css/text.css";
 import "../../assets/css/button.css";
 import "../../assets/css/global.css";
 
-//IMG
-import edit from "../../assets/icons/edit.png";
-import lock from "../../assets/icons/lock.svg";
-import mail from "../../assets/icons/mail.png";
-import pswReset from "../../assets/icons/psw-reset.png";
-import trash from "../../assets/icons/trash.png";
-
 //componentes
 import Cabecalho from "../../components/cabecalho/index";
 import { BackButton } from "../../components/button";
 import Display from "../../components/display";
+import React from 'react'
 
 function TelaCliente() {
   return (

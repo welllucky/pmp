@@ -1,5 +1,6 @@
 import './style.css'
 import Button from '../button'
+import React from 'react'
 
 export default function painelButton(props){
     return(

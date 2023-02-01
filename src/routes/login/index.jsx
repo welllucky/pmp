@@ -5,7 +5,8 @@ import '../../assets/css/global.css'
 import Cabecalho from '../../components/cabecalho/index'
 import Input from '../../components/inputs'
 import { Button } from '../../components/button'
-import search from '../../assets/icons/search.png'
+
+import React from 'react'
 
 
 export default function login() {
@@ -18,8 +19,8 @@ export default function login() {
                         <h2>Seja bem vindo(a)!</h2>
                         <div className="user-content-login">
                             <div className="data-inputs">
-                                <Input name="Email" type="email" placeholder="Digite seu email" />
-                                <Input name="Senha" type='psw' placeholder="Digite sua senha" />
+                                <Input.Email name="Email" type="email" placeholder="Digite seu email" />
+                                <Input.Psw name="Senha" type='psw' placeholder="Digite sua senha" />
                             </div>
                             <div className="psw-fogother"><h4>Esqueci a senha</h4></div>
                         </div>

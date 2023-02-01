@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
+import React from 'react'
 
 //imgs
 import logo from '../../assets/imgs/logo.png';
